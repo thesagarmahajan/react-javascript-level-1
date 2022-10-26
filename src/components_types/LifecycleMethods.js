@@ -1,13 +1,19 @@
 import React, { Component } from "react";
 
 class MountingComponent extends Component{
-    componentDidMount(){
-        console.log("Mounting Component - Did Mount")
+    constructor(props){
+        super(props)
+        console.log("Mounting Component - Constructor")
     }
     componentWillUnmount(){
         console.log("Mounting Component - Will Unmount")
     }
+    componentDidMount(){
+        console.log("Mounting Component - Did Mount")
+    }
+    
     render(){
+        console.log("Mounting Component - Render")
         return (
             <h1>Mounting Component</h1>
         )
@@ -40,7 +46,6 @@ class LifecycleMethods extends Component {
         else{
             this.setState({mountingComponent:true}) 
         }
-        
     }
 
     // Updating
@@ -58,6 +63,11 @@ class LifecycleMethods extends Component {
                 <button onClick={this.increaseCount}>Click Me</button>
                 <button onClick={this.handleComponentMount}>Mount MountingComponent</button>
                 {mountingComponent}
+                {/* {
+                    [12,23,43,58,11,78].map(num=>{
+                        return <MountingComponent />
+                    })
+                } */}
             </div>
         )
     }
