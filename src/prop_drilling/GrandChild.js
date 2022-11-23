@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import { NameContext } from "./Grandparent";
+import { NameContext } from "./GrandParent";
 
 function GrandChild(props){
     const value = useContext(NameContext)
     return (<>
         <div style={{border:"solid green 5px", height:"200px"}}>
             This is GranChild
-            My name is {value.email}
+            My name is {value}
         </div>
     </>)
 }

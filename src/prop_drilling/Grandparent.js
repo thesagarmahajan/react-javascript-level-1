@@ -23,8 +23,8 @@ function GrandParent(){
                 <input type="text" onChange={handleChange}/>
                 <button type="submit">SUBMIT</button>
             </form>
-            <NameContext.Provider value={givenName}>
-                <Parent/>
+            <NameContext.Provider value={name}>
+                <Parent />
             </NameContext.Provider>
         </div>
     </>)

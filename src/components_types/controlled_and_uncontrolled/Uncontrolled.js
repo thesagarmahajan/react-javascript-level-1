@@ -7,6 +7,7 @@ function Uncontrolled(){
     
     function handleSubmit(e){
         e.preventDefault()
+        console.log(name.current)
         console.log(name.current.value)
         console.log(phone.current.value)
     }

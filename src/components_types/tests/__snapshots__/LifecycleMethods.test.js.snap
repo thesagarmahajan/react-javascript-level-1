@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shallow Rendering 1`] = `
+<div>
+  <h1>
+    Lifecycle Methods
+  </h1>
+  <h2>
+    0
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    Click Me
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Mount MountingComponent
+  </button>
+</div>
+`;

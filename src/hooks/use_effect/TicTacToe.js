@@ -61,7 +61,7 @@ function TicTacToe(){
             setBtnst({...btnst,[btn]:"O"})
             setChar("O")
         }
-        checkWin()
+        // checkWin()
     }
 
     return (<>
