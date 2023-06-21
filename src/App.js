@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import LifecycleMethods from './components_types/LifecycleMethods';
+import GrandParent from './prop_drilling/GrandParent';
 
 function App() {
    return (
-    <LifecycleMethods />
-  );
+      <div>
+        <GrandParent />
+      </div>
+    );
 }
 
 export default App;
