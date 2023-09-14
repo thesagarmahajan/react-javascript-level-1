@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import GrandParent from './prop_drilling/GrandParent';
+import TicTacToe from './hooks/use_effect/TicTacToe';
 
 function App() {
    return (
       <div>
-        <GrandParent />
+        <TicTacToe />
       </div>
     );
 }

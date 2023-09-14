@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Child from "./Child";
 
-function Parent(props){
+function Parent(){
     
 
     return (<>
