@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import GrandParent from './prop_drilling/GrandParent';
+import UsersCrudReducer from './hooks/use_reducer/UsersCrudReducer';
 
 function App() {
    return (
       <div>
-        <GrandParent />
+        <UsersCrudReducer />
       </div>
     );
 }
