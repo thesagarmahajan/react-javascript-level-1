@@ -1,11 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import TicTacToe from './hooks/use_effect/TicTacToe';
+import GrandParent from './prop_drilling/GrandParent';
 
 function App() {
+
+
+  
    return (
       <div>
-        <TicTacToe />
+        <GrandParent />
       </div>
     );
 }
